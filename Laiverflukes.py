@@ -200,7 +200,7 @@ def ms_office():
     b = IntVar()
     b.set(64)
 
-    Label(microsoft_off, text="Choose your system bit :", font=my_font2,bg='bisque4').place(x=55, y=55)
+    Label(microsoft_off, text="Choose your basic programs version (e.g. MS Word of 32-bit) :", font=my_font2,bg='bisque4').place(x=25, y=55)
     Radiobutton(microsoft_off, text="64 bits", variable=b, value=64,bg='bisque4').place(x=55, y=85)
     Radiobutton(microsoft_off, text="32 bits", variable=b, value=32,bg='bisque4').place(x=55, y=115)
     Label(microsoft_off, text="I can open...", font=my_font2,bg='bisque4').place(x=55, y=145)
